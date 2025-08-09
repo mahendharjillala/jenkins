@@ -22,7 +22,7 @@ function App() {
   
   return (
     <>
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router basename='/myapp/'>
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<AboutUs />} />
