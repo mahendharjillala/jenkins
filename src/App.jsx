@@ -22,7 +22,7 @@ function App() {
   
   return (
     <>
-    <Router basename='/myapp/'>
+    <Router basename='/jenkins/'>
       <Routes>
         <Route path="/" element={<HomePage />}>
           <Route index element={<AboutUs />} />
