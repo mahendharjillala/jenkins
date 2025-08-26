@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react-swc';
 export default defineConfig({
   plugins: [react()],
   // base: '/S218JenkinsFrontend/'
-  base: '/myapp/'
+  base: '/jenkins/'
 });
